@@ -196,7 +196,7 @@ function generarPlantilla(tarjetas, total, c) {
                 <button class="menu-close">×</button>
                 <ul>
                     <li><a href="index">Propiedades</a></li>
-                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="index#nosotros">Nosotros</a></li>
                     <li><a href="https://wa.me/${c.waLimpio}?text=${c.mensajeWA}" class="cta-boton" target="_blank"><i class="houzez-icon icon-messaging-whatsapp" aria-hidden="true"></i>Contacto</a></li>
                 </ul>
             </nav>
@@ -312,7 +312,7 @@ function generarPlantilla(tarjetas, total, c) {
                 <h2>Menú rápido</h2>
                 <ul>
                    <li><a href="index">Propiedades</a></li>
-                    <li><a href="index?nosotros">Nosotros</a></li>
+                    <li><a href="index#nosotros">Nosotros</a></li>
                     <li><a href="#arriba" onclick="event.preventDefault(); window.scrollTo({top: 0, behavior: 'smooth'});">Ir al inicio</a></li> 
     
                 </ul>
@@ -432,6 +432,7 @@ function generarPlantilla(tarjetas, total, c) {
 </body>
 </html>`;
 }
+
 
 
 
