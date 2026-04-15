@@ -1,6 +1,6 @@
 export async function onRequest(context) {
-    const URL_PROPIEDADES = "https://docs.google.com/spreadsheets/d/1VctscCRyoQ-sdWa1vlGG0xsjjGY5Jznw6LaK20syz3g/export?format=csv&gid=0";
-    const URL_CONFIG = "https://docs.google.com/spreadsheets/d/1VctscCRyoQ-sdWa1vlGG0xsjjGY5Jznw6LaK20syz3g/export?format=csv&gid=563916861";
+    const URL_PROPIEDADES = "https://docs.google.com/spreadsheets/d/1RMACI9r5_GWIroZsDb68lPLodKwagXhgEwJX6t_zxHU/export?format=csv";
+    const URL_CONFIG = "https://docs.google.com/spreadsheets/d/1RMACI9r5_GWIroZsDb68lPLodKwagXhgEwJX6t_zxHU/export?format=csv&gid=2090640071";
 
     try {
         const [resProp, resConfig] = await Promise.all([
