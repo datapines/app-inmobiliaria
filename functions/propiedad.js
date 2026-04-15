@@ -256,6 +256,7 @@ export async function onRequest(context) {
     						${getDato("CIUDAD/UBICACIÓN") ? `<div class="item-detalle-fx"><span>Ciudad:</span> <span>${getDato("CIUDAD/UBICACIÓN")}</span></div>` : ''}    
     						${getDato("ZONA") ? `<div class="item-detalle-fx"><span>Zona:</span> <span>${getDato("ZONA")}</span></div>` : ''}    
     						${getDato("DIRECCIÓN") ? `<div class="item-detalle-fx"><span>Dirección:</span> <span>${getDato("DIRECCIÓN")}</span></div>` : ''}
+							${getDato("ESTRATO") ? `<div class="item-detalle-fx"><span>ESTRATO:</span> <span>${getDato("ESTRATO")}</span></div>` : ''}
 						</div>
                     </div>
 					${listaCaracteristicas && listaCaracteristicas.trim() !== "" ? `
